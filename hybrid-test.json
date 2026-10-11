@@ -28,5 +28,77 @@
       "qualitative_declarations": []
     }
   ],
-  "ledger_transactions": []
+  "ledger_transactions": [
+    {
+      "transaction_id": "SYN-EXP-001",
+      "transaction_date": "2026-10-09",
+      "type": "expense",
+      "amount_cents": 1483,
+      "category": "Food",
+      "description": "SYNTHETIC: fictional groceries",
+      "account": "Test cash",
+      "status": "paid",
+      "source_log_id": "synthetic-hybrid-log-001"
+    },
+    {
+      "transaction_id": "SYN-EXP-002",
+      "transaction_date": "2026-10-10",
+      "type": "expense",
+      "amount_cents": 500,
+      "category": "Transportation",
+      "description": "SYNTHETIC: fictional bus fare",
+      "account": "Test cash",
+      "status": "paid"
+    },
+    {
+      "transaction_id": "SYN-INC-003",
+      "transaction_date": "2026-10-11",
+      "type": "income",
+      "amount_cents": 2500,
+      "category": "Test income",
+      "description": "SYNTHETIC: fictional income",
+      "account": "Test cash",
+      "status": "received"
+    },
+    {
+      "transaction_id": "SYN-EXP-004",
+      "transaction_date": "2026-10-11",
+      "type": "expense",
+      "amount_cents": 725,
+      "category": "Food",
+      "description": "SYNTHETIC: fictional meal",
+      "account": "Test cash",
+      "status": "paid"
+    },
+    {
+      "transaction_id": "SYN-EXP-005",
+      "transaction_date": "2026-10-11",
+      "type": "expense",
+      "amount_cents": 1200,
+      "category": "Equipment",
+      "description": "SYNTHETIC: fictional equipment",
+      "account": "Test bank",
+      "status": "paid"
+    },
+    {
+      "transaction_id": "SYN-XFER-006",
+      "transaction_date": "2026-10-11",
+      "type": "transfer",
+      "amount_cents": 1000,
+      "category": "Transfer",
+      "description": "SYNTHETIC: fictional cash-to-bank transfer (excluded from income and expenses)",
+      "account": "Test cash to test bank",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "SYN-PLAN-007",
+      "transaction_date": "2026-10-12",
+      "type": "expense",
+      "amount_cents": 3999,
+      "category": "Equipment",
+      "description": "SYNTHETIC: fictional planned purchase (excluded from recorded totals)",
+      "account": "Test bank",
+      "status": "planned"
+    }
+  ]
 }
