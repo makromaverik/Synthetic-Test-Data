@@ -1,0 +1,32 @@
+{
+  "project": "Makromaverik",
+  "schema_version": "hybrid-synthetic-test-v1",
+  "timezone": "America/Los_Angeles",
+  "purpose": "SYNTHETIC TEST DATA ONLY — NOT REAL MAKROMAVERIK RESEARCH",
+  "daily_records": [
+    {
+      "record_id": "synthetic-day-2026-10-11",
+      "discussion_date": "2026-10-11",
+      "included_in_prospective_usage_emotion_graph": true,
+      "usage": {
+        "user_visible_tokens": null,
+        "assistant_visible_tokens": null,
+        "status": "not measured"
+      },
+      "notes": "Synthetic fixture: testing HTTPS snapshot import. No real participant data."
+    }
+  ],
+  "state_declarations": [],
+  "burst_declarations": [],
+  "supplements": [],
+  "change_log": [],
+  "field_logs": [
+    {
+      "log_id": "synthetic-hybrid-log-001",
+      "observation_date": "2026-10-11",
+      "verbatim": "SYNTHETIC TEST ENTRY: The hybrid console successfully loaded this fictional field log from an HTTPS JSON endpoint. No real observations or expenses are represented.",
+      "qualitative_declarations": []
+    }
+  ],
+  "ledger_transactions": []
+}
